@@ -1,0 +1,80 @@
+body {
+  background: url("loginimage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  margin-top: 220px;
+  background-color: rgba(0, 0, 0, 0.58);
+  background-blend-mode: darken;
+}
+
+.div1 {
+  background-color: rgb(215, 187, 187);
+  text-align: center;
+  margin-left: 300px;
+  width: 360px;
+  height: 290px;
+  border-radius: 20px;
+  border: 3px solid rgb(29, 29, 29);
+}
+
+.div1 p {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(166, 36, 36);
+}
+
+.div1 button {
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.div1 button:hover {
+  background-color: rgb(218, 107, 87);
+  cursor: pointer;
+}
+
+.div2 {
+  background-color: rgb(250, 156, 206);
+  margin-left: 300px;
+  text-align: center;
+  width: 360px;
+  height: 290px;
+  position: relative;
+  top: -295px;
+  left: 550px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.div2 h1 {
+  color: rgb(166, 36, 36);
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.div2 button {
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.div2 button:hover {
+  background-color: rgb(218, 107, 87);
+  cursor: pointer;
+}
+
+.div2 input {
+  background: transparent;
+  border: none;
+  border-bottom: 1.8px solid #000000;
+  padding: 13px 1px;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: rgb(74, 73, 73);
+  font-weight: bold;
+}
